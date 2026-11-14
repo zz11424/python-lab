@@ -47,3 +47,22 @@
 
 - D2：循环与条件
 - 面试（长沙，具身智能机器人实习）
+
+## 今日记录 · 2026-11-14
+
+**完成**
+
+- D1 复习：变量、print、input、f-string，三道自测跑通
+- D2：`for` / `range` / `if` / `continue`，理解了 `break` 与 `continue` 的区别
+
+**踩过的坑**
+
+4. `if i == 7` 漏了英文冒号，VS Code 用波浪线提示 → 补上 `:` 解决。
+5. 把运行命令 `python d2_loop.py` 写进了 `.py` 文件，报 SyntaxError
+   → 命令在终端敲，编辑器里只写 Python 语句。
+6. 在错误目录运行，报 `[Errno 2] No such file or directory`
+   → 先 `cd C:\Users\z\python-lab`，或在 VS Code 里打开文件夹。
+
+**明天**
+
+- D3：函数、字典、读写 txt
